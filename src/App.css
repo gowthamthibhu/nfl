@@ -3,14 +3,14 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #f5f5f5;
+  background-image: url(./imgages/background.jpeg);
 }
 
 .login-card {
   text-align: center;
   padding: 2rem;
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
-  background-color: white;
+  background-color: rgb(255, 250, 240);
   border-radius: 40px; 
 }
 
@@ -25,8 +25,10 @@
   width: 100%;  
 }
 
+
 .custom-dropdown{
   width: 85%;
+  
 }
 
 .subheading {
@@ -34,6 +36,8 @@
   margin-bottom: 50px; 
   font-size: 1.2rem; 
 }
+
+
 
 @media screen and (max-width: 768px) {
   .app-container {
