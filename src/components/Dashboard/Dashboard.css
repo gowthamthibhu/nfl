@@ -1,36 +1,56 @@
 .card {
-    margin: 20px;
     width: 85%;
     height: fit-content;
     border-radius: 15px;
-    margin-left: 50px;
-    margin-top: 1px;
+    margin-left: 55px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px; /* Added padding for better spacing */
+    padding: 10px;
 }
 
 .manage-programs-title {
     margin-left: 80px;
-    margin-top: 70px; /* Space between the title and the table */
-    font-size: 30px; /* Title font size */
-    font-weight: bold; /* Title font weight */
+    margin-top: 70px;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .table-filter {
-    display: flex; /* Use flex to align the input and button */
-    align-items: center; /* Center align vertically */
+    display: flex;
+    align-items: center;
     margin-left: 70px;
-    margin-bottom: 20px; /* Add space below the filter */
+    margin-bottom: 20px;
 }
 
 .search-input {
-    width: 70%; /* Take up full width */
-    border-radius: 20px; /* Rounded corners for the search input */
+    width: 70%;
+    border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-right: 10px; /* Space between the input and button */
+    margin-right: 10px;
 }
 
-.search-button{
-    border-radius: 20px; /* Rounded corners for the search button */
-    width: 150px; /* Set a fixed width for the button */
+.search-button {
+    border-radius: 20px;
+    width: 150px;
+}
+
+.p-paginator {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    box-shadow: none;
+}
+
+.p-paginator .p-paginator-pages .p-paginator-page {
+    background-color: transparent;
+    color: #333;
+    border-radius: 50%;
+}
+
+.p-paginator .p-paginator-pages .p-paginator-page.p-highlight {
+    background-color: #007bff;
+    color: white;
+}
+
+.p-paginator .p-paginator-pages .p-paginator-page:hover {
+    background-color: rgba(0, 123, 255, 0.5);
+    color: white;
 }

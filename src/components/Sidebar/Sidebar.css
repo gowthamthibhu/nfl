@@ -1,10 +1,10 @@
 .sidebar {
-    width: 150px; /* Set the width of the sidebar */
-    background: linear-gradient(to top, #fffbfb, #22b3ba); /* Sidebar background gradient */
-    color: #000000; /* Text color */
-    height: 100vh; /* Full height */
-    padding: 20px; /* Padding for the sidebar */
-    position: fixed; /* Fixed positioning */
+    width: 150px;
+    background: linear-gradient(to top, #fffbfb, #22b3ba);
+    color: #000000;
+    height: 100vh;
+    padding: 20px;
+    position: fixed;
     border-top-right-radius: 60px;
     z-index: 1;
     border-bottom-right-radius: 60px;
@@ -19,25 +19,25 @@
 }
 
 .sidebar-menu {
-    list-style: none; /* Remove bullet points */
-    padding: 0; /* Remove padding */
+    list-style: none;
+    padding: 0;
 }
 
 .sidebar-menu li {
-    margin: 10px 0; /* Margin for each menu item */
+    margin: 10px 0;
 }
 
 .sidebar-link {
-    color: #000000; /* Link color */
-    text-decoration: none; /* Remove underline from links */
-    font-size: 18px; /* Font size for links */
-    display: block; /* Make the link take up the full width */
-    padding: 10px; /* Padding for links */
-    border-radius: 20px; /* Rounded corners for links */
-    transition: background-color 0.3s; /* Transition for hover effect */
+    color: #000000;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    padding: 10px;
+    border-radius: 20px;
+    transition: background-color 0.3s;
 }
 
 .sidebar-link:hover {
-    background-color: #cfddeb; /* Background color on hover */
+    background-color: #cfddeb;
     border-radius: 20px;
 }
