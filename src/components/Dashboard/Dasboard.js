@@ -2,15 +2,15 @@ import React, { useState, useEffect } from 'react';
 import { DataTable } from 'primereact/datatable';
 import { Column } from 'primereact/column';
 import { InputText } from 'primereact/inputtext';
-import Sidebar from '../Sidebar/Sidebar'; // Import the Sidebar component
+import Sidebar from '../Sidebar/Sidebar'; 
 import './Dashboard.css';
 import { Button } from 'primereact/button';
-import axios from 'axios'; // For making API requests
+import axios from 'axios'; 
 
 export default function Dashboard() {
     const [programs, setPrograms] = useState([]);
     const [globalFilter, setGlobalFilter] = useState('');
-    const [searchInput, setSearchInput] = useState(''); // New state for the search input
+    const [searchInput, setSearchInput] = useState('');
 
     useEffect(() => {
         // Fetch data from the backend API
@@ -34,12 +34,57 @@ export default function Dashboard() {
         } else if (rowData.status === 0) {
             return 'LIVE';
         } else {
-            return 'UNKNOWN'; // Handle unknown statuses
+            return 'UNKNOWN';
         }
     };
 
+    // Duplicate a program
+    const duplicateProgram = (rowData) => {
+        const duplicatedProgram = { 
+            program_name: rowData.program_name, 
+            program_short_description: rowData.program_short_description, 
+            program_start_date: rowData.program_start_date, 
+            program_end_date: rowData.program_end_date, 
+            status: rowData.status 
+        };
+        axios.post('http://localhost:5000/api/programs', duplicatedProgram)
+            .then(response => {
+                setPrograms([...programs, response.data]); // Update the frontend
+            })
+            .catch(error => {
+                console.error('Error duplicating the program:', error);
+            });
+    };
+
+    // Delete a program
+    const deleteProgram = (rowData) => {    
+        axios.delete(`http://localhost:5000/api/programs/${rowData._id}`)
+            .then(response => {
+                setPrograms(programs.filter(program => program._id !== rowData._id)); // Remove the deleted program from the state
+            })
+            .catch(error => {
+                console.error('Error deleting the program:', error);
+            });
+    };
+
+    const actionBodyTemplate = (rowData) => {
+        return (
+            <div>
+                <Button 
+                    label="Duplicate" 
+                    className="p-button-rounded p-button-success p-mr-2" 
+                    onClick={() => duplicateProgram(rowData)}
+                />
+                <Button 
+                    label="Delete" 
+                    className="p-button-rounded p-button-danger" 
+                    onClick={() => deleteProgram(rowData)}
+                />
+            </div>
+        )
+    };
+
     const handleSearch = () => {
-        // Update the globalFilter state with the current input when the button is clicked
         setGlobalFilter(searchInput);
     };
 
@@ -97,6 +142,9 @@ export default function Dashboard() {
                             header="Status" 
                             body={statusBodyTemplate} 
                             style={{ width: '25%' }} 
+                        ></Column>
+                        <Column 
+                            body={actionBodyTemplate}                        
                         ></Column>
                     </DataTable>
                 </div>
