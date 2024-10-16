@@ -1,0 +1,36 @@
+.card {
+    margin: 20px;
+    width: 85%;
+    height: fit-content;
+    border-radius: 15px;
+    margin-left: 50px;
+    margin-top: 1px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px; /* Added padding for better spacing */
+}
+
+.manage-programs-title {
+    margin-left: 80px;
+    margin-top: 70px; /* Space between the title and the table */
+    font-size: 30px; /* Title font size */
+    font-weight: bold; /* Title font weight */
+}
+
+.table-filter {
+    display: flex; /* Use flex to align the input and button */
+    align-items: center; /* Center align vertically */
+    margin-left: 70px;
+    margin-bottom: 20px; /* Add space below the filter */
+}
+
+.search-input {
+    width: 70%; /* Take up full width */
+    border-radius: 20px; /* Rounded corners for the search input */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-right: 10px; /* Space between the input and button */
+}
+
+.search-button{
+    border-radius: 20px; /* Rounded corners for the search button */
+    width: 150px; /* Set a fixed width for the button */
+}

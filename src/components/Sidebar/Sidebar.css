@@ -1,0 +1,43 @@
+.sidebar {
+    width: 150px; /* Set the width of the sidebar */
+    background: linear-gradient(to top, #fffbfb, #22b3ba); /* Sidebar background gradient */
+    color: #000000; /* Text color */
+    height: 100vh; /* Full height */
+    padding: 20px; /* Padding for the sidebar */
+    position: fixed; /* Fixed positioning */
+    border-top-right-radius: 60px;
+    z-index: 1;
+    border-bottom-right-radius: 60px;
+    top: 0;
+    left: 0;
+}
+
+.sidebar-title {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.sidebar-menu {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+}
+
+.sidebar-menu li {
+    margin: 10px 0; /* Margin for each menu item */
+}
+
+.sidebar-link {
+    color: #000000; /* Link color */
+    text-decoration: none; /* Remove underline from links */
+    font-size: 18px; /* Font size for links */
+    display: block; /* Make the link take up the full width */
+    padding: 10px; /* Padding for links */
+    border-radius: 20px; /* Rounded corners for links */
+    transition: background-color 0.3s; /* Transition for hover effect */
+}
+
+.sidebar-link:hover {
+    background-color: #cfddeb; /* Background color on hover */
+    border-radius: 20px;
+}

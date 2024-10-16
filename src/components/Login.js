@@ -8,6 +8,7 @@ import { Dropdown } from 'primereact/dropdown';
 import { FloatLabel } from "primereact/floatlabel";
 import 'primereact/resources/themes/lara-light-teal/theme.css';
 import 'primereact/resources/primereact.min.css';
+import { useNavigate } from 'react-router-dom';
 
 function Login() {
     const [username, setUsername] = useState('');
@@ -15,11 +16,14 @@ function Login() {
     const [selectedOrganization, setSelectedOrganization] = useState(null);
     const [errorMessage, setErrorMessage] = useState('');
     const [successMessage, setSuccessMessage] = useState(''); 
+    const navigate = useNavigate();
     const organization = [
         { name: 'RIT', code: 'RI' },
         { name: 'REC', code: 'RE' },
         { name: 'CIT', code: 'CI' }
     ];
+
+    
 
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
@@ -40,6 +44,7 @@ function Login() {
         } else {
             setErrorMessage('');
             setSuccessMessage('Submitted successfully!');
+            navigate('/dashboard');
         }
     };
 

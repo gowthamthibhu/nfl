@@ -1,0 +1,1174 @@
+[{
+  "_id": {
+    "$oid": "66582faffa663c5d95f40211"
+  },
+  "status": 0,
+  "created_by": {
+    "$oid": "661114f4ad6de22d9ab907d3"
+  },
+  "program_name": "FULL STACK ",
+  "program_short_description": "web app",
+  "program_description": "<p>Full stack course</p>",
+  "organization_ids": [],
+  "super_admin": {
+    "$oid": "661114f4ad6de22d9ab907d3"
+  },
+  "program_start_date": "2024-05-29T18:30:00.000Z",
+  "program_end_date": "2024-07-28T18:29:59.000Z",
+  "modules_list": [
+    {
+      "module_name": "HTML",
+      "module_description": "<p>Learn html</p>",
+      "module_start_date": "2024-05-29T18:30:00.000Z",
+      "module_end_date": "2024-07-27T18:29:59.000Z",
+      "order": 0,
+      "activity_list": [],
+      "_id": {
+        "$oid": "66582fc2fa663c5d95f40215"
+      }
+    }
+  ],
+  "created_at": {
+    "$date": "2024-05-30T07:50:07.698Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66583b09bfe5050b9dc3d839"
+  },
+  "status": 0,
+  "created_by": {
+    "$oid": "661114f4ad6de22d9ab907d3"
+  },
+  "program_name": "Demo Program 300524",
+  "program_short_description": "Demo Program 300524",
+  "program_description": "<p>Demo Program 300524</p>",
+  "organization_ids": [],
+  "super_admin": {
+    "$oid": "661114f4ad6de22d9ab907d3"
+  },
+  "program_start_date": "2024-05-29T18:30:00.000Z",
+  "program_end_date": "2024-08-06T18:29:59.000Z",
+  "modules_list": [
+    {
+      "module_name": "Demo Module 300524",
+      "module_description": "<p>Demo Module 300524</p>",
+      "module_start_date": "2024-05-29T18:30:00.000Z",
+      "module_end_date": "2024-08-06T18:29:59.000Z",
+      "order": 0,
+      "activity_list": [
+        {
+          "type": "video",
+          "activity_start_date": "2024-05-29T18:30:00.000Z",
+          "activity_end_date": "2024-07-26T18:29:59.000Z",
+          "status": 0,
+          "data": {
+            "activity_url": "https://www.youtube.com/watch?v=CprwwvQR6xI",
+            "activity_description": "<p>Work Jazz</p>",
+            "activity_name": "Video 1"
+          },
+          "order": 0,
+          "_id": {
+            "$oid": "66583cc9bfe5050b9dc3d84e"
+          }
+        },
+        {
+          "type": "assessment",
+          "activity_start_date": "2024-05-30T18:30:00.000Z",
+          "activity_end_date": "2024-07-26T18:30:00.000Z",
+          "status": 0,
+          "data": {
+            "no_of_attempt": "6",
+            "test_id": "125870",
+            "test_name": "Testing Skills(3)"
+          },
+          "order": 0,
+          "_id": {
+            "$oid": "665863a9bfe5050b9dc3d965"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "66583b3bbfe5050b9dc3d83d"
+      }
+    }
+  ],
+  "created_at": {
+    "$date": "2024-05-30T08:38:33.701Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "665851d4bfe5050b9dc3d8e3"
+  },
+  "status": 0,
+  "created_by": {
+    "$oid": "661114f4ad6de22d9ab907d3"
+  },
+  "program_name": "javascript",
+  "program_short_description": "web app",
+  "program_description": "<p>hi</p>",
+  "organization_ids": [],
+  "super_admin": {
+    "$oid": "661114f4ad6de22d9ab907d3"
+  },
+  "program_start_date": "2024-05-30T18:30:00.000Z",
+  "program_end_date": "2024-06-20T18:29:59.000Z",
+  "modules_list": [
+    {
+      "module_name": "MY VIDEO",
+      "module_description": "<p>hello</p>",
+      "module_start_date": "2024-05-31T18:30:00.000Z",
+      "module_end_date": "2024-06-18T18:29:59.000Z",
+      "order": 0,
+      "activity_list": [],
+      "_id": {
+        "$oid": "665851ecbfe5050b9dc3d8e7"
+      }
+    },
+    {
+      "module_name": "M2 ",
+      "module_description": "<p>m2</p>",
+      "module_start_date": "2024-05-30T18:30:00.000Z",
+      "module_end_date": "2024-06-20T18:29:59.000Z",
+      "order": 0,
+      "activity_list": [
+        {
+          "type": "assessment",
+          "status": 0,
+          "data": {
+            "no_of_attempt": "3",
+            "test_id": "124601",
+            "test_name": "Only Coding"
+          },
+          "order": 0,
+          "_id": {
+            "$oid": "665993603d7238bcfa6950fc"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "66585e19bfe5050b9dc3d92a"
+      }
+    }
+  ],
+  "created_at": {
+    "$date": "2024-05-30T10:15:48.168Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6658642fbfe5050b9dc3d975"
+  },
+  "status": 1,
+  "created_by": {
+    "$oid": "661114f4ad6de22d9ab907d3"
+  },
+  "program_name": "Demo Program 2",
+  "program_short_description": "Demo Program 2",
+  "program_description": "<p>Demo Program 2</p>",
+  "organization_ids": [],
+  "super_admin": {
+    "$oid": "661114f4ad6de22d9ab907d3"
+  },
+  "program_start_date": "2024-05-29T18:30:00.000Z",
+  "program_end_date": "2024-10-10T18:29:59.000Z",
+  "modules_list": [
+    {
+      "module_name": "Demo Module 1",
+      "module_description": "<p>Demo Module 1</p>",
+      "module_start_date": "2024-05-29T18:30:00.000Z",
+      "module_end_date": "2024-09-28T18:29:59.000Z",
+      "order": 0,
+      "activity_list": [
+        {
+          "type": "assessment",
+          "activity_start_date": "2024-06-01T15:30:00.000Z",
+          "activity_end_date": "2024-07-25T16:10:49.000Z",
+          "status": 0,
+          "data": {
+            "no_of_attempt": "3",
+            "test_id": "125722",
+            "test_name": "Testing Skills 123 abc"
+          },
+          "order": 0,
+          "_id": {
+            "$oid": "665871803d7238bcfa69466f"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "6658644cbfe5050b9dc3d979"
+      }
+    },
+    {
+      "module_name": "m1",
+      "module_description": "<p>f</p>",
+      "module_start_date": "2024-08-30T18:30:00.000Z",
+      "module_end_date": "2024-10-10T18:29:59.000Z",
+      "order": 0,
+      "activity_list": [
+        {
+          "type": "assessment",
+          "activity_start_date": "2024-08-30T18:30:00.000Z",
+          "activity_end_date": "2024-10-10T18:29:59.000Z",
+          "status": 0,
+          "data": {
+            "no_of_attempt": "3",
+            "test_id": "1233457",
+            "test_name": "dfd skk"
+          },
+          "order": 0,
+          "_id": {
+            "$oid": "66d2ee28d062abf235dc98cc"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "66d2ee14d062abf235dc98bc"
+      }
+    }
+  ],
+  "created_at": {
+    "$date": "2024-05-30T11:34:07.346Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "665993b03d7238bcfa69512b"
+  },
+  "status": 1,
+  "created_by": {
+    "$oid": "661114f4ad6de22d9ab907d3"
+  },
+  "program_name": "DEMO program 3",
+  "program_short_description": "DEMO program 3",
+  "program_description": "<p>DEMO program 3</p>",
+  "organization_ids": [],
+  "super_admin": {
+    "$oid": "661114f4ad6de22d9ab907d3"
+  },
+  "program_start_date": "2024-05-30T18:30:00.000Z",
+  "program_end_date": "2024-07-23T18:29:59.000Z",
+  "modules_list": [
+    {
+      "module_name": "Module 1",
+      "module_description": "<p>Module 1</p>",
+      "module_start_date": "2024-05-30T18:30:00.000Z",
+      "module_end_date": "2024-07-23T18:29:59.000Z",
+      "order": 0,
+      "activity_list": [
+        {
+          "type": "assessment",
+          "status": 0,
+          "data": {
+            "no_of_attempt": "3",
+            "test_id": "124601",
+            "test_name": "Testing Skills"
+          },
+          "order": 0,
+          "_id": {
+            "$oid": "6659b73cc3afc7a8de93aba0"
+          }
+        },
+        {
+          "type": "assessment",
+          "status": 0,
+          "data": {
+            "no_of_attempt": "3",
+            "test_id": "124603",
+            "test_name": "Only MCQs"
+          },
+          "order": 0,
+          "_id": {
+            "$oid": "6659c04bb2b829e8633cd93d"
+          }
+        },
+        {
+          "type": "assessment",
+          "activity_start_date": "2024-06-01T07:30:00.000Z",
+          "activity_end_date": "2024-06-04T23:29:59.000Z",
+          "status": 0,
+          "data": {
+            "no_of_attempt": "2",
+            "test_id": "125722",
+            "test_name": "Coding 1 and MCQ 3"
+          },
+          "order": 0,
+          "_id": {
+            "$oid": "665ad8448c36bab8ac0beb8b"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "665994093d7238bcfa695132"
+      }
+    }
+  ],
+  "created_at": {
+    "$date": "2024-05-31T09:09:04.851Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6659bcb3b2b829e8633cd858"
+  },
+  "status": 0,
+  "created_by": {
+    "$oid": "661114f4ad6de22d9ab907d3"
+  },
+  "program_name": "PHP",
+  "program_short_description": "web app",
+  "program_description": "<p>hi</p>",
+  "organization_ids": [],
+  "super_admin": {
+    "$oid": "661114f4ad6de22d9ab907d3"
+  },
+  "program_start_date": "2024-05-31T18:30:00.000Z",
+  "program_end_date": "2024-06-28T18:29:59.000Z",
+  "modules_list": [
+    {
+      "module_name": "DIGITAL MARKETING",
+      "module_description": "<p>hi</p>",
+      "module_start_date": "2024-06-02T18:30:00.000Z",
+      "module_end_date": "2024-06-20T18:29:59.000Z",
+      "order": 0,
+      "activity_list": [
+        {
+          "type": "assessment",
+          "activity_start_date": "2024-06-04T18:30:00.000Z",
+          "activity_end_date": "2024-06-18T18:29:59.000Z",
+          "status": 0,
+          "data": {
+            "no_of_attempt": "3",
+            "test_id": "125870",
+            "test_name": "Testing Skills(3)"
+          },
+          "order": 0,
+          "_id": {
+            "$oid": "6659bce2b2b829e8633cd861"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "6659bcc3b2b829e8633cd85c"
+      }
+    }
+  ],
+  "created_at": {
+    "$date": "2024-05-31T12:04:03.436Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6659c99eb2b829e8633cdae5"
+  },
+  "status": 0,
+  "created_by": {
+    "$oid": "661114f4ad6de22d9ab907d3"
+  },
+  "program_name": "New Demo 123",
+  "program_short_description": "New Demo 123",
+  "program_description": "<p>New Demo 123</p>",
+  "organization_ids": [],
+  "super_admin": {
+    "$oid": "661114f4ad6de22d9ab907d3"
+  },
+  "program_start_date": "2024-05-30T18:30:00.000Z",
+  "program_end_date": "2024-07-01T18:29:59.000Z",
+  "modules_list": [
+    {
+      "module_name": "Module 1",
+      "module_description": "<p>M1</p>",
+      "module_start_date": "2024-05-30T18:30:00.000Z",
+      "module_end_date": "2024-07-01T18:29:59.000Z",
+      "order": 0,
+      "activity_list": [
+        {
+          "type": "assessment",
+          "activity_end_date": "2024-06-01T06:29:06.877Z",
+          "status": 0,
+          "data": {
+            "no_of_attempt": "2",
+            "test_id": "125722",
+            "test_name": "Coding 2 and MCQ 3"
+          },
+          "order": 0,
+          "_id": {
+            "$oid": "665ab18955aed732efae26be"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "6659c9acb2b829e8633cdae9"
+      }
+    }
+  ],
+  "created_at": {
+    "$date": "2024-05-31T12:59:10.770Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "665af5d38c36bab8ac0bedd9"
+  },
+  "status": 0,
+  "created_by": {
+    "$oid": "661114f4ad6de22d9ab907d3"
+  },
+  "program_name": "Demo Program 010624",
+  "program_short_description": "Demo Program 010624",
+  "program_description": "<p>Demo Program 010624</p>",
+  "organization_ids": [],
+  "super_admin": {
+    "$oid": "661114f4ad6de22d9ab907d3"
+  },
+  "program_start_date": "2024-05-31T18:30:00.000Z",
+  "program_end_date": "2024-06-30T18:29:59.000Z",
+  "modules_list": [
+    {
+      "module_name": "M1",
+      "module_description": "<p>M1</p>",
+      "module_start_date": "2024-05-31T18:30:00.000Z",
+      "module_end_date": "2024-06-25T18:29:59.000Z",
+      "order": 0,
+      "activity_list": [],
+      "_id": {
+        "$oid": "665af6228c36bab8ac0bede1"
+      }
+    },
+    {
+      "module_name": "M2 ",
+      "module_description": "<p>2</p>",
+      "module_start_date": "2024-05-31T18:30:00.000Z",
+      "module_end_date": "2024-06-01T18:29:59.999Z",
+      "order": 0,
+      "activity_list": [
+        {
+          "type": "assessment",
+          "activity_end_date": "2024-06-01T17:26:04.862Z",
+          "status": 0,
+          "data": {
+            "no_of_attempt": "4",
+            "test_id": "124603",
+            "test_name": "Testing Skills"
+          },
+          "order": 0,
+          "_id": {
+            "$oid": "665af73c8c36bab8ac0bee44"
+          }
+        },
+        {
+          "type": "video",
+          "activity_start_date": "2024-05-31T18:30:00.000Z",
+          "activity_end_date": "2024-06-01T18:29:59.999Z",
+          "status": 0,
+          "data": {
+            "activity_url": "https://www.youtube.com/watch?v=PnL4pO4fgCM",
+            "activity_description": "<p>123456</p>",
+            "activity_name": "VIdeo 1"
+          },
+          "order": 0,
+          "_id": {
+            "$oid": "665af7578c36bab8ac0bee67"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "665af7008c36bab8ac0bee25"
+      }
+    }
+  ],
+  "created_at": {
+    "$date": "2024-06-01T10:20:03.245Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "665b41434c60c7522dfb5fb7"
+  },
+  "status": 1,
+  "created_by": {
+    "$oid": "661114f4ad6de22d9ab907d3"
+  },
+  "created_at": {
+    "$date": "2024-06-01T15:41:55.771Z"
+  },
+  "program_name": "Testing Program 01",
+  "program_short_description": "Testing Program 01",
+  "program_description": "<p>Testing Program 01</p>",
+  "organization_ids": [],
+  "super_admin": {
+    "$oid": "661114f4ad6de22d9ab907d3"
+  },
+  "program_start_date": "2024-05-31T18:30:00.000Z",
+  "program_end_date": "2024-06-24T18:29:59.000Z",
+  "modules_list": [
+    {
+      "module_name": "M 1",
+      "module_description": "<p>M1</p>",
+      "module_start_date": "2024-05-31T18:30:00.000Z",
+      "module_end_date": "2024-06-05T18:29:59.000Z",
+      "order": 0,
+      "activity_list": [
+        {
+          "type": "assessment",
+          "activity_start_date": "2024-05-31T18:30:00.000Z",
+          "activity_end_date": "2024-06-05T18:29:59.000Z",
+          "status": 0,
+          "data": {
+            "no_of_attempt": "1",
+            "test_id": "125879",
+            "test_name": "MCQ and Coding"
+          },
+          "order": 0,
+          "_id": {
+            "$oid": "665b41d24c60c7522dfb5fc1"
+          }
+        },
+        {
+          "type": "assessment",
+          "activity_start_date": "2024-05-31T18:30:00.000Z",
+          "activity_end_date": "2024-06-03T10:30:00.000Z",
+          "status": 0,
+          "data": {
+            "no_of_attempt": "1",
+            "test_id": "124603",
+            "test_name": "Only Coding"
+          },
+          "order": 0,
+          "_id": {
+            "$oid": "665b42124c60c7522dfb5fca"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "665b419a4c60c7522dfb5fbb"
+      }
+    },
+    {
+      "module_name": "M2 ",
+      "module_description": "<p>M2</p>",
+      "module_start_date": "2024-05-31T18:30:00.000Z",
+      "module_end_date": "2024-06-03T18:29:59.000Z",
+      "order": 0,
+      "activity_list": [
+        {
+          "type": "assessment",
+          "activity_start_date": "2024-05-31T18:30:00.000Z",
+          "activity_end_date": "2024-06-02T18:29:59.000Z",
+          "status": 0,
+          "data": {
+            "no_of_attempt": "2",
+            "test_id": "124601",
+            "test_name": "Only Coding"
+          },
+          "order": 0,
+          "_id": {
+            "$oid": "665b426a4c60c7522dfb5ff3"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "665b424c4c60c7522dfb5fe4"
+      }
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "665b62444c60c7522dfb672f"
+  },
+  "status": 1,
+  "created_by": {
+    "$oid": "661114f4ad6de22d9ab907d3"
+  },
+  "created_at": {
+    "$date": "2024-06-01T18:02:44.969Z"
+  },
+  "program_name": "Demo 3",
+  "program_short_description": "Demo 3",
+  "program_description": "<p>Demo 3</p>",
+  "organization_ids": [],
+  "super_admin": {
+    "$oid": "661114f4ad6de22d9ab907d3"
+  },
+  "program_start_date": "2024-05-31T18:30:00.000Z",
+  "program_end_date": "2024-07-03T18:29:59.000Z",
+  "modules_list": [
+    {
+      "module_name": "M1",
+      "module_description": "<p>M1</p>",
+      "module_start_date": "2024-05-31T18:30:00.000Z",
+      "module_end_date": "2024-07-03T18:29:59.000Z",
+      "order": 0,
+      "activity_list": [
+        {
+          "type": "assessment",
+          "activity_start_date": "2024-05-31T18:30:00.000Z",
+          "activity_end_date": "2024-07-03T18:29:59.000Z",
+          "status": 0,
+          "data": {
+            "no_of_attempt": "3",
+            "test_id": "125879",
+            "test_name": "Testing Skills 123 abc"
+          },
+          "order": 0,
+          "_id": {
+            "$oid": "665b627a4c60c7522dfb6756"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "665b62634c60c7522dfb6750"
+      }
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "665b62a94c60c7522dfb678b"
+  },
+  "status": 0,
+  "created_by": {
+    "$oid": "661114f4ad6de22d9ab907d3"
+  },
+  "created_at": {
+    "$date": "2024-06-01T18:04:25.227Z"
+  },
+  "program_name": "Demo 345",
+  "program_short_description": "Demo 345",
+  "program_description": "<p>Demo 345</p>",
+  "organization_ids": [],
+  "super_admin": {
+    "$oid": "661114f4ad6de22d9ab907d3"
+  },
+  "program_start_date": "2024-05-31T18:30:00.000Z",
+  "program_end_date": "2024-06-27T18:29:59.000Z",
+  "modules_list": [
+    {
+      "module_name": "Module 1",
+      "module_description": "<p>M1</p>",
+      "module_start_date": "2024-05-31T18:30:00.000Z",
+      "module_end_date": "2024-06-27T18:29:59.000Z",
+      "order": 0,
+      "activity_list": [],
+      "_id": {
+        "$oid": "665b62b64c60c7522dfb678f"
+      }
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "665c01ab819f86d5ee0a6f42"
+  },
+  "status": 1,
+  "created_by": {
+    "$oid": "661114f4ad6de22d9ab907d3"
+  },
+  "created_at": {
+    "$date": "2024-06-02T05:22:51.466Z"
+  },
+  "program_name": "Demo Program 34",
+  "program_short_description": "ARUN",
+  "program_description": "<p>HI</p>",
+  "organization_ids": [],
+  "super_admin": {
+    "$oid": "661114f4ad6de22d9ab907d3"
+  },
+  "program_start_date": "2024-06-01T18:30:00.000Z",
+  "program_end_date": "2024-08-02T18:29:59.000Z",
+  "modules_list": [
+    {
+      "module_name": "MODULE-1",
+      "module_description": "<p>1</p>",
+      "module_start_date": "2024-06-01T18:30:00.000Z",
+      "module_end_date": "2024-07-05T18:29:59.000Z",
+      "order": 0,
+      "activity_list": [
+        {
+          "type": "assessment",
+          "activity_start_date": "2024-06-01T18:30:00.000Z",
+          "activity_end_date": "2024-07-04T18:29:59.000Z",
+          "status": 0,
+          "data": {
+            "no_of_attempt": "2",
+            "test_id": "125870",
+            "test_name": "Testing Skills(3)"
+          },
+          "order": 0,
+          "_id": {
+            "$oid": "665c0205819f86d5ee0a6f6c"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "665c01d2819f86d5ee0a6f66"
+      }
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "665ebd2cb1443b91b4f0498b"
+  },
+  "status": 1,
+  "created_by": {
+    "$oid": "661114f4ad6de22d9ab907d3"
+  },
+  "created_at": {
+    "$date": "2024-06-04T07:07:24.863Z"
+  },
+  "program_name": "Sample Program 04062024",
+  "program_short_description": "Testing - Sample Program 04062024 ",
+  "program_description": "<p>Testing - Sample Program 04062024&nbsp;</p>",
+  "organization_ids": [],
+  "super_admin": {
+    "$oid": "661114f4ad6de22d9ab907d3"
+  },
+  "program_start_date": "2024-06-03T18:30:00.000Z",
+  "program_end_date": "2024-06-30T18:29:59.000Z",
+  "modules_list": [
+    {
+      "module_name": "Sample Module A",
+      "module_description": "<p>Sample Module A</p>",
+      "module_start_date": "2024-06-03T18:30:00.000Z",
+      "module_end_date": "2024-06-30T18:29:59.000Z",
+      "order": 0,
+      "activity_list": [
+        {
+          "type": "assessment",
+          "activity_start_date": "2024-06-03T18:30:00.000Z",
+          "activity_end_date": "2024-06-14T20:30:59.000Z",
+          "status": 0,
+          "data": {
+            "no_of_attempt": "1",
+            "test_id": "124601",
+            "test_name": "Only Coding"
+          },
+          "order": 0,
+          "_id": {
+            "$oid": "665ebebeb1443b91b4f04995"
+          }
+        },
+        {
+          "type": "assessment",
+          "activity_start_date": "2024-06-03T18:30:00.000Z",
+          "activity_end_date": "2024-06-23T23:30:00.000Z",
+          "status": 0,
+          "data": {
+            "no_of_attempt": "2",
+            "test_id": "125722",
+            "test_name": "Coding 2 and MCQ 3"
+          },
+          "order": 0,
+          "_id": {
+            "$oid": "665ebf04b1443b91b4f0499e"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "665ebd5fb1443b91b4f0498f"
+      }
+    },
+    {
+      "module_name": "Sample Program B",
+      "module_description": "<p>Sample Program B</p>",
+      "module_start_date": "2024-06-03T18:30:00.000Z",
+      "module_end_date": "2024-06-04T18:29:59.000Z",
+      "order": 0,
+      "activity_list": [
+        {
+          "type": "assessment",
+          "activity_start_date": "2024-06-03T18:30:00.000Z",
+          "activity_end_date": "2024-06-04T11:29:00.000Z",
+          "status": 0,
+          "data": {
+            "no_of_attempt": "1",
+            "test_id": "125879",
+            "test_name": "Testing Skills"
+          },
+          "order": 0,
+          "_id": {
+            "$oid": "665ebf8eb1443b91b4f049c5"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "665ebf5db1443b91b4f049b6"
+      }
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66a087495b0d7eb1a3d18cdf"
+  },
+  "status": 0,
+  "created_by": {
+    "$oid": "661114f4ad6de22d9ab907d3"
+  },
+  "created_at": {
+    "$date": "2024-07-24T04:47:05.454Z"
+  },
+  "program_name": "React ",
+  "program_short_description": "Front End Developer Roadmap",
+  "program_description": "<p><strong style=\"background-color: rgb(31, 31, 31); color: rgb(188, 192, 195);\">React</strong><span style=\"background-color: rgb(31, 31, 31); color: rgb(189, 193, 198);\">&nbsp;is the library for web and native user interfaces. Build user interfaces out of individual pieces called components written in JavaScript.</span></p>",
+  "organization_ids": [
+    {
+      "org_id": {
+        "$oid": "66584b9ebfe5050b9dc3d88e"
+      },
+      "_id": {
+        "$oid": "66e47798f75cad6d30e86b43"
+      }
+    }
+  ],
+  "super_admin": {
+    "$oid": "661114f4ad6de22d9ab907d3"
+  },
+  "program_start_date": "2024-07-23T18:30:00.000Z",
+  "program_end_date": "2024-07-27T18:29:59.000Z",
+  "modules_list": [
+    {
+      "module_name": "How to create and nest components",
+      "module_description": "<p>React apps are made out of <em>components</em>. A component is a piece of the UI (user interface) that has its own logic and appearance. A component can be as small as a button, or as large as an entire page.</p><p>React components are JavaScript functions that return markup</p>",
+      "module_start_date": "2024-07-23T18:30:00.000Z",
+      "module_end_date": "2024-07-27T18:29:59.000Z",
+      "order": 0,
+      "activity_list": [
+        {
+          "type": "assessment",
+          "activity_start_date": "2024-07-23T18:30:00.000Z",
+          "activity_end_date": "2024-07-24T18:29:59.000Z",
+          "status": 0,
+          "data": {
+            "no_of_attempt": "2",
+            "test_id": "12345",
+            "test_name": "create and nest components"
+          },
+          "order": 0,
+          "_id": {
+            "$oid": "66a0ace15b0d7eb1a3d18cfe"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "66a087805b0d7eb1a3d18ce3"
+      }
+    },
+    {
+      "module_name": "Writing markup with JSX ",
+      "module_description": "<p><span style=\"background-color: rgb(35, 39, 47); color: rgb(246, 247, 249);\">JSX is stricter than HTML. You have to close tags like &lt;br /&gt;. Your component also can’t return multiple JSX tags. You have to wrap them into a shared parent, like a &lt;div&gt;...&lt;/div&gt; or an empty &lt;&gt;...&lt;/&gt; wrapper:</span></p>",
+      "module_start_date": "2024-07-23T18:30:00.000Z",
+      "module_end_date": "2024-07-27T18:29:59.000Z",
+      "order": 0,
+      "activity_list": [
+        {
+          "type": "assessment",
+          "activity_start_date": "2024-07-23T18:30:00.000Z",
+          "activity_end_date": "2024-07-25T18:29:59.000Z",
+          "status": 0,
+          "data": {
+            "no_of_attempt": "1",
+            "test_id": "987654",
+            "test_name": "Writing markup with JSX Test"
+          },
+          "order": 0,
+          "_id": {
+            "$oid": "66a0ad045b0d7eb1a3d18d0d"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "66a087a55b0d7eb1a3d18ce9"
+      }
+    },
+    {
+      "module_name": "Displaying data ",
+      "module_description": "<p><span style=\"background-color: rgb(35, 39, 47); color: rgb(246, 247, 249);\">JSX lets you put markup into JavaScript. Curly braces let you “escape back” into JavaScript so that you can embed some variable from your code and display it to the user. </span></p>",
+      "module_start_date": "2024-07-23T18:30:00.000Z",
+      "module_end_date": "2024-07-27T18:29:59.000Z",
+      "order": 0,
+      "activity_list": [
+        {
+          "type": "assessment",
+          "activity_start_date": "2024-07-26T18:30:00.000Z",
+          "activity_end_date": "2024-07-27T18:29:59.000Z",
+          "status": 0,
+          "data": {
+            "no_of_attempt": "3",
+            "test_id": "65432",
+            "test_name": "Displaying data test"
+          },
+          "order": 0,
+          "_id": {
+            "$oid": "66a0b4035b0d7eb1a3d18d31"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "66a0acb95b0d7eb1a3d18cf2"
+      }
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66a0b52e5b0d7eb1a3d18d6c"
+  },
+  "status": 0,
+  "created_by": {
+    "$oid": "661114f4ad6de22d9ab907d3"
+  },
+  "created_at": {
+    "$date": "2024-07-24T08:02:54.806Z"
+  },
+  "program_name": "React Part 2",
+  "program_short_description": "test short desc",
+  "program_description": "<p><span style=\"background-color: rgb(35, 39, 47); color: rgb(246, 247, 249);\">React can change how you think about the designs you look at and the apps you build. When you build a user interface with React, you will first break it apart into pieces called </span><em style=\"background-color: rgb(35, 39, 47); color: rgb(246, 247, 249);\">components</em><span style=\"background-color: rgb(35, 39, 47); color: rgb(246, 247, 249);\">. Then, you will describe the different visual states for each of your components. Finally, you will connect your components together so that the data flows through them. </span></p>",
+  "organization_ids": [],
+  "super_admin": {
+    "$oid": "661114f4ad6de22d9ab907d3"
+  },
+  "program_start_date": "2024-07-23T18:30:00.000Z",
+  "program_end_date": "2024-11-01T18:29:59.000Z",
+  "modules_list": [
+    {
+      "module_name": "Break the UI into a component hierarchy ",
+      "module_description": "<p><span style=\"background-color: rgb(35, 39, 47); color: rgb(246, 247, 249);\">Start by drawing boxes around every component and subcomponent in the mockup and naming them. If you work with a designer, they may have already named these components in their design tool. Ask them!</span></p>",
+      "module_start_date": "2024-07-23T18:30:00.000Z",
+      "module_end_date": "2024-07-24T18:29:59.000Z",
+      "order": 0,
+      "activity_list": [
+        {
+          "type": "assessment",
+          "activity_start_date": "2024-07-23T18:30:00.000Z",
+          "activity_end_date": "2024-07-24T18:29:59.000Z",
+          "status": 0,
+          "data": {
+            "no_of_attempt": "1",
+            "test_id": "85214",
+            "test_name": "Break the UI Test"
+          },
+          "order": 0,
+          "_id": {
+            "$oid": "66a0b5705b0d7eb1a3d18d78"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "66a0b54c5b0d7eb1a3d18d72"
+      }
+    },
+    {
+      "module_name": " Build a static version in React ",
+      "module_description": "<p><span style=\"color: rgb(246, 247, 249); background-color: rgb(35, 39, 47);\"> The most straightforward approach is to build a version that renders the UI from your data model without adding any interactivity… yet! It’s often easier to build the static version first and add interactivity later. Building a static version requires a lot of typing and no thinking, but adding interactivity requires a lot of thinking and not a lot of typing.</span></p>",
+      "module_start_date": "2024-07-24T18:30:00.000Z",
+      "module_end_date": "2024-07-27T18:29:59.000Z",
+      "order": 0,
+      "activity_list": [
+        {
+          "type": "assessment",
+          "activity_start_date": "2024-07-25T18:30:00.000Z",
+          "activity_end_date": "2024-07-26T18:29:59.000Z",
+          "status": 0,
+          "data": {
+            "no_of_attempt": "1",
+            "test_id": "84265",
+            "test_name": " Build a static version in React Test"
+          },
+          "order": 0,
+          "_id": {
+            "$oid": "66a0b5ed5b0d7eb1a3d18da5"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "66a0b5935b0d7eb1a3d18d81"
+      }
+    },
+    {
+      "module_name": "Find the minimal but complete representation of UI state ",
+      "module_description": "<h2>Find the minimal but complete representation of UI state&nbsp;</h2><h2>Find the minimal but complete representation of UI state&nbsp;</h2><h2>Find the minimal but complete representation of UI state&nbsp;</h2><p><br></p>",
+      "module_start_date": "2024-07-23T18:30:00.000Z",
+      "module_end_date": "2024-07-27T18:29:59.000Z",
+      "order": 0,
+      "activity_list": [
+        {
+          "type": "assessment",
+          "activity_start_date": "2024-07-26T18:30:00.000Z",
+          "activity_end_date": "2024-07-27T18:29:59.000Z",
+          "status": 0,
+          "data": {
+            "no_of_attempt": "1",
+            "test_id": "444444",
+            "test_name": "Representation of UI state Test"
+          },
+          "order": 0,
+          "_id": {
+            "$oid": "66a0b61e5b0d7eb1a3d18dc6"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "66a0b6045b0d7eb1a3d18db4"
+      }
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66b114af4e260353ef5fc09f"
+  },
+  "status": 0,
+  "created_by": {
+    "$oid": "66b0b1f09e0364e1b21bd509"
+  },
+  "created_at": {
+    "$date": "2024-08-05T18:06:39.306Z"
+  },
+  "program_name": "FULL STACK 5 Aug",
+  "program_short_description": "test",
+  "program_description": "<p>test</p>",
+  "organization_ids": [],
+  "super_admin": {
+    "$oid": "66b0b1f09e0364e1b21bd509"
+  },
+  "program_start_date": "2024-08-05T18:30:00.000Z",
+  "program_end_date": "2024-08-23T18:29:59.000Z",
+  "modules_list": [
+    {
+      "module_name": "m1",
+      "module_description": "<p>test</p>",
+      "module_start_date": "2024-08-05T18:30:00.000Z",
+      "module_end_date": "2024-08-23T18:29:59.000Z",
+      "order": 0,
+      "activity_list": [
+        {
+          "type": "video",
+          "activity_start_date": "2024-08-05T18:30:00.000Z",
+          "activity_end_date": "2024-08-23T18:29:59.000Z",
+          "status": 0,
+          "data": {
+            "activity_url": "https://www.youtube.com/watch?v=PnL4pO4fgCM",
+            "activity_description": "<p>test</p>",
+            "activity_name": "video 1"
+          },
+          "order": 0,
+          "_id": {
+            "$oid": "66b114c94e260353ef5fc0a9"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "66b114ba4e260353ef5fc0a3"
+      }
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66cf597397e7c088bb078f89"
+  },
+  "status": 0,
+  "created_by": {
+    "$oid": "661114f4ad6de22d9ab907d3"
+  },
+  "created_at": {
+    "$date": "2024-08-28T17:08:03.696Z"
+  },
+  "program_name": "React Part 22",
+  "program_short_description": "eww",
+  "program_description": "<p>wewe</p>",
+  "organization_ids": [
+    {
+      "org_id": {
+        "$oid": "6658743b3d7238bcfa6946c8"
+      },
+      "_id": {
+        "$oid": "66f577814844bdb9eafd9b59"
+      }
+    }
+  ],
+  "super_admin": {
+    "$oid": "661114f4ad6de22d9ab907d3"
+  },
+  "program_start_date": "2024-08-27T18:30:00.000Z",
+  "program_end_date": "2024-08-29T18:29:59.000Z",
+  "modules_list": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66cf5b1b97e7c088bb079093"
+  },
+  "status": 0,
+  "created_by": {
+    "$oid": "661114f4ad6de22d9ab907d3"
+  },
+  "created_at": {
+    "$date": "2024-08-28T17:15:07.028Z"
+  },
+  "program_name": "test 28 8",
+  "program_short_description": "test",
+  "program_description": "<p>ss</p>",
+  "organization_ids": [],
+  "super_admin": {
+    "$oid": "661114f4ad6de22d9ab907d3"
+  },
+  "program_start_date": "2024-08-27T18:30:00.000Z",
+  "program_end_date": "2024-08-29T18:29:59.000Z",
+  "modules_list": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66f19b3fe82eb4c2c6a3b8dc"
+  },
+  "status": 0,
+  "created_by": {
+    "$oid": "661114f4ad6de22d9ab907d3"
+  },
+  "created_at": {
+    "$date": "2024-09-23T16:45:51.599Z"
+  },
+  "program_name": "FULL STACK bd",
+  "program_short_description": "ss",
+  "program_description": "<p>knmmn</p>",
+  "organization_ids": [
+    {
+      "org_id": {
+        "$oid": "6658743b3d7238bcfa6946c8"
+      },
+      "count": 2,
+      "_id": {
+        "$oid": "66f698b5cadfb8e065109855"
+      }
+    }
+  ],
+  "super_admin": {
+    "$oid": "661114f4ad6de22d9ab907d3"
+  },
+  "program_start_date": "2024-09-22T18:30:00.000Z",
+  "program_end_date": "2024-09-27T18:29:59.000Z",
+  "modules_list": [],
+  "__v": 2
+}]
