@@ -54,3 +54,12 @@
     background-color: rgba(0, 123, 255, 0.5);
     color: white;
 }
+
+.p-button-rounded {
+    padding: 0.25em 0.5em;
+}
+
+.p-menu {
+    width: 10rem;
+}
+

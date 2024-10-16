@@ -1,9 +1,12 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { DataTable } from 'primereact/datatable';
 import { Column } from 'primereact/column';
 import { InputText } from 'primereact/inputtext';
 import Sidebar from '../Sidebar/Sidebar'; 
 import './Dashboard.css';
+import 'primereact/resources/primereact.min.css';         
+import 'primeicons/primeicons.css'; 
+import { Menu } from 'primereact/menu'; 
 import { Button } from 'primereact/button';
 import axios from 'axios'; 
 
@@ -11,9 +14,10 @@ export default function Dashboard() {
     const [programs, setPrograms] = useState([]);
     const [globalFilter, setGlobalFilter] = useState('');
     const [searchInput, setSearchInput] = useState('');
+    
+    const menuRefs = useRef({});
 
     useEffect(() => {
-        // Fetch data from the backend API
         axios.get('http://localhost:5000/api/programs')
             .then(response => {
                 setPrograms(response.data);
@@ -38,7 +42,6 @@ export default function Dashboard() {
         }
     };
 
-    // Duplicate a program
     const duplicateProgram = (rowData) => {
         const duplicatedProgram = { 
             program_name: rowData.program_name, 
@@ -49,14 +52,13 @@ export default function Dashboard() {
         };
         axios.post('http://localhost:5000/api/programs', duplicatedProgram)
             .then(response => {
-                setPrograms([...programs, response.data]); // Update the frontend
+                setPrograms([...programs, response.data]); 
             })
             .catch(error => {
                 console.error('Error duplicating the program:', error);
             });
     };
 
-    // Delete a program
     const deleteProgram = (rowData) => {    
         axios.delete(`http://localhost:5000/api/programs/${rowData._id}`)
             .then(response => {
@@ -68,20 +70,33 @@ export default function Dashboard() {
     };
 
     const actionBodyTemplate = (rowData) => {
+        if (!menuRefs.current[rowData._id]) {
+            menuRefs.current[rowData._id] = React.createRef();
+        }
+
+        const menuItems = [
+            {
+                label: 'Duplicate',
+                icon: 'pi pi-copy',
+                command: () => duplicateProgram(rowData)
+            },
+            {
+                label: 'Delete',
+                icon: 'pi pi-trash',
+                command: () => deleteProgram(rowData)
+            }
+        ];
+
         return (
             <div>
+                <Menu model={menuItems} popup ref={menuRefs.current[rowData._id]} id={`popup_menu_${rowData._id}`} />
                 <Button 
-                    label="Duplicate" 
-                    className="p-button-rounded p-button-success p-mr-2" 
-                    onClick={() => duplicateProgram(rowData)}
-                />
-                <Button 
-                    label="Delete" 
-                    className="p-button-rounded p-button-danger" 
-                    onClick={() => deleteProgram(rowData)}
+                    icon="pi pi-ellipsis-v" 
+                    className="p-button-rounded p-button-text"
+                    onClick={(event) => menuRefs.current[rowData._id].current.toggle(event)} 
                 />
             </div>
-        )
+        );
     };
 
     const handleSearch = () => {

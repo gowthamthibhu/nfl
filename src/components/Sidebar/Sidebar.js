@@ -1,6 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; // Using React Router for navigation
-import './Sidebar.css'; // Import the CSS for the sidebar
+import { Link } from 'react-router-dom'; 
+import './Sidebar.css'; 
 
 const Sidebar = () => {
     return (
