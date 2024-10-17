@@ -1,3 +1,4 @@
+/* src/components/Sidebar/Sidebar.css */
 .sidebar {
     width: 150px;
     background: linear-gradient(to top, #fffbfb, #22b3ba);
@@ -6,10 +7,10 @@
     padding: 20px;
     position: fixed;
     border-top-right-radius: 60px;
-    z-index: 1;
     border-bottom-right-radius: 60px;
     top: 0;
     left: 0;
+    z-index: 1;
 }
 
 .sidebar-title {
@@ -35,10 +36,9 @@
     display: block;
     padding: 10px;
     border-radius: 20px;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 .sidebar-link:hover {
-    background-color: #cfddeb;
-    border-radius: 20px;
+    background-color: #cfddeb;  /* Hover background color */
 }

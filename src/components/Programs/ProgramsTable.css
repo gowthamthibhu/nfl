@@ -1,11 +1,16 @@
-/* For header alignment between title and Create button */
 .header-container {
     display: flex;
+    margin-top: 30px;
     justify-content: space-between;
     align-items: center;
     margin-left: 70px;
     margin-right: 70px;
-    margin-top: 50px;
+}
+
+.table-filter {
+    display: flex;
+    align-items: center;
+    margin-left: 70px;
 }
 
 .programs-title {
@@ -19,14 +24,7 @@
     border-radius: 20px;
 }
 
-/* Search Bar styling */
-.table-filter {
-    display: flex;
-    align-items: center;
-    margin-left: 70px;
-    margin-bottom: 10px; /* Reduced space */
-    margin-top: 20px;    /* Added margin between title and search */
-}
+
 
 .search-input {
     width: 70%;
@@ -35,22 +33,18 @@
     margin-right: 10px;
 }
 
-.search-button {
+
+
+.programs-card {
+    background-color: white;
     border-radius: 10px;
-    width: 150px;
-}
-
-/* Data Table styling */
-.card {
-    width: 85%;
-    height: fit-content;
-    border-radius: 15px;
-    margin-left: 55px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
 }
 
-/* Paginator styling */
+
 .p-paginator {
     background-color: rgba(255, 255, 255, 0.8);
     border: none;

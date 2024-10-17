@@ -1,4 +1,5 @@
-.manage-program-container {
+/* Container Styling */
+.program-form-container {
     padding: 2rem;
     background-color: #f9f9f9;
     border-radius: 8px;
@@ -7,28 +8,33 @@
     margin-right: 100px;
 }
 
-.manage-program-title {
+/* Title Styling */
+.program-form-title {
     font-size: 1.5rem;
     font-weight: 600;
     margin-bottom: 1.5rem;
     text-align: flex;
 }
 
-.manage-program-form {
+/* Form Styling */
+.program-form {
     background-color: white;
     padding: 2rem;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+/* Field Styling */
 .form-field {
     margin-bottom: 1.5rem;
 }
 
+/* Program-specific Field */
 .form-program-field {
     width: 50%;
 }
 
+/* Label Styling */
 label {
     display: block;
     font-size: 0.9rem;
@@ -36,6 +42,7 @@ label {
     margin-bottom: 0.5rem;
 }
 
+/* Input Field Styling */
 .input-full-width {
     width: 100%;
 }
@@ -44,16 +51,19 @@ label {
     height: 100px;
 }
 
+/* Toggle Button Styling */
 .sequential-field {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
+/* Form Footer */
 .form-footer {
     text-align: right;
 }
 
+/* Button Styling */
 .p-button-success {
     background-color: #28a745;
     border-color: #28a745;

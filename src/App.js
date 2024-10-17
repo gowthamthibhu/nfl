@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Login from "./components/Login";
 import Table from "./components/Programs/Programs";
+import 'primeicons/primeicons.css';
 import CreateProgram from "./components/CreateProgram/CreateProgram"
 import ManageProgram from "./components/ManageProgram/ManageProgram";
 function App() {

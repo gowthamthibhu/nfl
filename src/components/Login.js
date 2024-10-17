@@ -17,8 +17,11 @@ function Login() {
         selectedOrganization: null
     });
 
-    const [errorMessage, setErrorMessage] = useState('');
-    const [successMessage, setSuccessMessage] = useState('');
+    const [message, setMessage] = useState({
+        error: '',
+        success: ''
+    });
+
     const navigate = useNavigate();
     
     const organization = [
@@ -37,17 +40,13 @@ function Login() {
         const { username, password, selectedOrganization } = form;
 
         if (!emailRegex.test(username)) {
-            setErrorMessage('Please enter a valid email address.');
-            setSuccessMessage('');
+            setMessage({ error: 'Please enter a valid email address.', success: '' });
         } else if (!isPasswordValid(password)) {
-            setErrorMessage('Password must be at least 8 characters long and contain both letters and numbers.');
-            setSuccessMessage('');
+            setMessage({ error: 'Password must be at least 8 characters long and contain both letters and numbers.', success: '' });
         } else if (!selectedOrganization) {
-            setErrorMessage('Please select an organization.');
-            setSuccessMessage('');
+            setMessage({ error: 'Please select an organization.', success: '' });
         } else {
-            setErrorMessage('');
-            setSuccessMessage('Submitted successfully!');
+            setMessage({ error: '', success: 'Submitted successfully!' });
             navigate('/programs');
         }
     };
@@ -92,8 +91,8 @@ function Login() {
                         </FloatLabel>
                     </div>
 
-                    {errorMessage && <p className="error-message">{errorMessage}</p>}
-                    {successMessage && <p className="success-message">{successMessage}</p>}
+                    {message.error && <p className="error-message">{message.error}</p>}
+                    {message.success && <p className="success-message">{message.success}</p>}
 
                     <div className="submit-button">
                         <Button label="Submit" severity="submit" text raised onClick={handleSubmit} />
