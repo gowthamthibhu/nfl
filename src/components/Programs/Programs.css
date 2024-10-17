@@ -1,24 +1,31 @@
-.card {
-    width: 85%;
-    height: fit-content;
-    border-radius: 15px;
-    margin-left: 55px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 10px;
+/* For header alignment between title and Create button */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 50px;
 }
 
-.manage-programs-title {
-    margin-left: 80px;
-    margin-top: 70px;
+.programs-title {
     font-size: 30px;
     font-weight: bold;
 }
 
+.create-program-button {
+    margin-right: 80px;
+    width: 150px;
+    border-radius: 20px;
+}
+
+/* Search Bar styling */
 .table-filter {
     display: flex;
     align-items: center;
     margin-left: 70px;
-    margin-bottom: 20px;
+    margin-bottom: 10px; /* Reduced space */
+    margin-top: 20px;    /* Added margin between title and search */
 }
 
 .search-input {
@@ -29,10 +36,21 @@
 }
 
 .search-button {
-    border-radius: 20px;
+    border-radius: 10px;
     width: 150px;
 }
 
+/* Data Table styling */
+.card {
+    width: 85%;
+    height: fit-content;
+    border-radius: 15px;
+    margin-left: 55px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+/* Paginator styling */
 .p-paginator {
     background-color: rgba(255, 255, 255, 0.8);
     border: none;
@@ -55,6 +73,7 @@
     color: white;
 }
 
+/* Button styling */
 .p-button-rounded {
     padding: 0.25em 0.5em;
 }
@@ -62,4 +81,3 @@
 .p-menu {
     width: 10rem;
 }
-

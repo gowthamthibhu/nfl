@@ -11,13 +11,19 @@ const Sidebar = () => {
                     <Link to="/dashboard" className="sidebar-link">Dashboard</Link>
                 </li>
                 <li>
-                    <Link to="/settings" className="sidebar-link">Settings</Link>
+                    <Link to="/programs" className="programs-link">Programs</Link>
                 </li>
                 <li>
-                    <Link to="/reports" className="sidebar-link">Reports</Link>
+                    <Link to="/learners" className="learners-link">Learners</Link>
                 </li>
                 <li>
-                    <Link to="/help" className="sidebar-link">Help</Link>
+                    <Link to="/analytics" className="analytics-link">Analytics</Link>
+                </li>
+                <li>
+                    <Link to="/assessment" className="assessment-link">Assessment</Link>
+                </li>
+                <li>
+                    <Link to="/settings" className="settings-link">Settings</Link>
                 </li>
             </ul>
         </div>

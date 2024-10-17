@@ -48,7 +48,7 @@ function Login() {
         } else {
             setErrorMessage('');
             setSuccessMessage('Submitted successfully!');
-            navigate('/dashboard');
+            navigate('/programs');
         }
     };
 

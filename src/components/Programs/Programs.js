@@ -3,17 +3,19 @@ import { DataTable } from 'primereact/datatable';
 import { Column } from 'primereact/column';
 import { InputText } from 'primereact/inputtext';
 import Sidebar from '../Sidebar/Sidebar'; 
-import './Dashboard.css';
+import './Programs.css';
 import 'primereact/resources/primereact.min.css';         
 import 'primeicons/primeicons.css'; 
 import { Menu } from 'primereact/menu'; 
 import { Button } from 'primereact/button';
 import axios from 'axios'; 
+import { useNavigate } from 'react-router-dom';
 
-export default function Dashboard() {
+export default function Programs() {
     const [programs, setPrograms] = useState([]);
     const [globalFilter, setGlobalFilter] = useState('');
     const [searchInput, setSearchInput] = useState('');
+    const navigate = useNavigate();
     
     const menuRefs = useRef({});
 
@@ -62,11 +64,15 @@ export default function Dashboard() {
     const deleteProgram = (rowData) => {    
         axios.delete(`http://localhost:5000/api/programs/${rowData._id}`)
             .then(response => {
-                setPrograms(programs.filter(program => program._id !== rowData._id)); // Remove the deleted program from the state
+                setPrograms(programs.filter(program => program._id !== rowData._id)); 
             })
             .catch(error => {
                 console.error('Error deleting the program:', error);
             });
+    };
+
+    const editProgram = (rowData) => {
+        navigate(`/manageprogram/${rowData._id}`); 
     };
 
     const actionBodyTemplate = (rowData) => {
@@ -84,6 +90,11 @@ export default function Dashboard() {
                 label: 'Delete',
                 icon: 'pi pi-trash',
                 command: () => deleteProgram(rowData)
+            },
+            {
+                label: 'Edit',
+                icon: 'pi pi-pencil', // Change icon to pencil for edit
+                command: () => editProgram(rowData) // Use editProgram function
             }
         ];
 
@@ -103,11 +114,28 @@ export default function Dashboard() {
         setGlobalFilter(searchInput);
     };
 
+    const handleCreate = () => {
+        navigate('/CreateProgram');
+    };
+
     return (
         <div style={{ display: 'flex' }}>
             <Sidebar />
             <div style={{ marginLeft: '200px', flexGrow: 1 }}>
-                <h3 className="manage-programs-title">Manage Programs</h3>
+                
+                {/* Header section for title and Create button */}
+                <div className="header-container">
+                    <h3 className="programs-title">Programs</h3>
+                    <Button 
+                        className="create-program-button"
+                        label="Create"
+                        text
+                        raised
+                        onClick={handleCreate}
+                    />
+                </div>
+
+                {/* Search Bar */}
                 <div className="table-filter">
                     <InputText 
                         type="search" 
@@ -117,13 +145,15 @@ export default function Dashboard() {
                         className="search-input"
                     />
                     <Button 
-                        className='search-button'
+                        className="search-button"
                         label="Search"
                         text
                         raised
                         onClick={handleSearch}
                     />
                 </div>
+
+                {/* Data Table */}
                 <div className="card">
                     <DataTable 
                         value={programs} 
